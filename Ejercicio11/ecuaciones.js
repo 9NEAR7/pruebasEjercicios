@@ -4,7 +4,7 @@ function ecuacion(){
     var ax = parseFloat(prompt("Ingresa e valor de a: "));
     var bx = parseFloat(prompt("Ingresa el valor de b"))
     var resultado = -(bx/ax);
-    alert("Resultado de la operacion:  x = 0 ," + resultado);
+    alert("Resultado de la operacion:  x = 0 ," + resultado.toFixed(4));
     window.location.reload();
 
 }

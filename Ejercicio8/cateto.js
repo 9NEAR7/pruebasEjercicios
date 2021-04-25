@@ -13,7 +13,7 @@ function calculoCateto(){
 
     }
     else{
-        alert("Error: Datos incorrectos");
+        alert("Error: Datos incorrectos \n La hipotenusa es menor que el cateto");
         window.location.reload();
     }
 
