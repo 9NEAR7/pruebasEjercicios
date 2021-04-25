@@ -5,6 +5,8 @@ function tablavalor(){
     var valorB = parseFloat(document.getElementById("valorb").value);
     var valorC = parseFloat(document.getElementById("valorc").value);
     var valorV = parseFloat(document.getElementById("valorv").value);
+    var numerosx = [];
+    var numerosy = [];
 
     for (i = valorV; i >= -valorV; i--){
         var y = ((valorA * Math.pow(i,2)) + (valorB * i) + valorC);
@@ -12,6 +14,9 @@ function tablavalor(){
         "X = " + i + " Y = " + y);
         
     }
+
+    
+
 
     window.location.reload();
 
