@@ -22,4 +22,7 @@ function multiplosiete(){
     "Suma de los múltiplos: " + suma + "\n" + 
     "La multiplicación de estos números es: " + multi.toFixed(5) );
 
+    window.location.reload();
+
+
 }
